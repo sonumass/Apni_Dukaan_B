@@ -140,7 +140,7 @@ class UpcomingTrainingPage extends BaseStateLessWidget {
               child: FadeInImage.assetNetwork(
                   width: screenWidget,
                   placeholder: "assets/png/placeholder.png",
-                  image: "${Constant.baseUrl}/${upcomingEvents.images[0].filePath}"),
+                  image: "${Constant.baseImageUrl}/${upcomingEvents.images[0].filePath}"),
             ),
           ),
           const SizedBox(

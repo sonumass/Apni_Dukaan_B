@@ -52,7 +52,7 @@ class _DrawerDashboardState extends State<DrawerDashboard> {
                                   child: FadeInImage.assetNetwork(
                                     placeholder: 'assets/png/app_logo.png',
                                     image: appPreferences.userImage.isNotEmpty
-                                        ? "${Constant.baseUrl}${appPreferences.userImage}"
+                                        ? "${Constant.baseImageUrl}${appPreferences.userImage}"
                                         : "https://cdn-icons-png.flaticon.com/512/149/149071.png",
                                     fit: BoxFit.cover,
                                     height: 70.0,

@@ -200,7 +200,7 @@ class BrowseCategory extends AppPageWithAppBar {
   }
 
   Widget categoryItem(CategoryCatData data) {
-    String catImageUrl = "${Constant.baseUrl}${data.categoryImg}";
+    String catImageUrl = "${Constant.baseImageUrl}${data.categoryImg}";
     return Card(
       child: SizedBox(
         width: screenWidget / 4,

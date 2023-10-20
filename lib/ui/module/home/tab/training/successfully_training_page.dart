@@ -75,7 +75,7 @@ class SuccessfullyTraining extends BaseStateLessWidget {
               child: FadeInImage.assetNetwork(
                   width: screenWidget,
                   placeholder: "assets/png/placeholder.png",
-                  image: "${Constant.baseUrl}/${postEvent.images[0].filePath}"),
+                  image: "${Constant.baseImageUrl}/${postEvent.images[0].filePath}"),
             ),
           ),
           const SizedBox(

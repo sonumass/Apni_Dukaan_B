@@ -17,15 +17,12 @@ import 'package:provider/provider.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../../../controllers/home/home_controller.dart';
 import '../../../controllers/meridhukaan/total_visitor_controller.dart';
 import '../../../controllers/product/product_list_controller.dart';
-import '../../../controllers/training/training_controller.dart';
 import '../../../models/product_featureDetailsValue.dart';
 import '../../../notifire/cart_notifire.dart';
 import '../../../services/navigator.dart';
 import '../../../theme/my_theme.dart';
-import '../../../utils/analytics.dart';
 import '../../../utils/common_util.dart';
 import '../../../utils/palette.dart';
 import '../../commonwidget/bottom_bar.dart';
@@ -845,7 +842,7 @@ class ProductDetail extends AppPageWithAppBar {
                   textColor: Colors.white,
                   shape: const CircleBorder(),
                   child: const Icon(
-                    Icons.whatsapp,
+                    Icons.add,
                   ),
                 ),
               ),

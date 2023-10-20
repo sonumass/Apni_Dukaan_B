@@ -42,7 +42,7 @@ class TestimonialCard extends BaseStateLessWidget {
                         fit: BoxFit.fill,
                         placeholder: "assets/png/placeholder.png",
                         image:
-                        "${Constant.baseUrl}/${listData.img}")),
+                        "${Constant.baseImageUrl}/${listData.img}")),
               ),
             ),
             Expanded(

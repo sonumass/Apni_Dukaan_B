@@ -191,7 +191,7 @@ class Dashboard extends AppPageWithAppBar {
                       height: 26,
                       width: 26,
                       placeholder: 'assets/png/placeholder.png',
-                      image: Constant.baseUrl +
+                      image: Constant.baseImageUrl +
                           controller.categoryList[index].categoryImg,
                     ),
                     const SizedBox(
@@ -256,7 +256,7 @@ class Dashboard extends AppPageWithAppBar {
                 width: 80,
                 child: FadeInImage.assetNetwork(
                   placeholder: 'assets/png/placeholder.png',
-                  image: Constant.baseUrl + categoryHomeData.categoryImg,
+                  image: Constant.baseImageUrl + categoryHomeData.categoryImg,
                 ),
               ),
             ),

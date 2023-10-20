@@ -152,7 +152,7 @@ class _ProductStatefulWidgetState extends State<ProductStatefulWidget> {
             height: 200,
             placeholder: "assets/png/placeholder.png",
             image:
-                "${Constant.baseUrl}${controller.productSetList![index].img1}"),
+                "${Constant.baseImageUrl}${controller.productSetList![index].img1}"),
       ),
     );
   }

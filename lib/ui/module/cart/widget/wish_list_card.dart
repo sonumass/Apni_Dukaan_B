@@ -50,7 +50,7 @@ class WishListCard extends BaseStateLessWidget {
                         fit: BoxFit.fill,
                         placeholder: "assets/png/placeholder.png",
                         image:
-                            "${Constant.baseUrl}${product.productImg.isNotEmpty ? product.productImg : "/img/product/noaImg2.png"}")),
+                            "${Constant.baseImageUrl}${product.productImg.isNotEmpty ? product.productImg : "/img/product/noaImg2.png"}")),
               ),
             ),
             Expanded(

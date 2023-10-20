@@ -314,10 +314,10 @@ class ProductSimilarDetail extends AppPageWithAppBar {
   Widget get imageCarousel {
     AllProduct allProduct = arguments['allProduct'];
     List<String> imageList = [
-      Constant.baseUrl + allProduct.img1,
-      Constant.baseUrl + allProduct.img2,
-      Constant.baseUrl + allProduct.img3,
-      Constant.baseUrl + allProduct.img4
+      Constant.baseImageUrl + allProduct.img1,
+      Constant.baseImageUrl + allProduct.img2,
+      Constant.baseImageUrl + allProduct.img3,
+      Constant.baseImageUrl + allProduct.img4
     ];
     return Carousel(imageList: imageList);
   }
@@ -825,7 +825,7 @@ class ProductSimilarDetail extends AppPageWithAppBar {
                       textColor: Colors.white,
                       shape: const CircleBorder(),
                       child: const Icon(
-                        Icons.whatsapp,
+                        Icons.account_box,
                       ),
                     ),
                   ),

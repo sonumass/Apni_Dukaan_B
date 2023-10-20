@@ -20,7 +20,7 @@ class EnquiryDataCard extends BaseStateLessWidget {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint("${Constant.baseUrl}/${equiryData.productImg}");
+    debugPrint("${Constant.baseImageUrl}/${equiryData.productImg}");
     return SizedBox(
       width: screenWidget,
       child: InkWell(
@@ -47,7 +47,7 @@ class EnquiryDataCard extends BaseStateLessWidget {
                           fit: BoxFit.fill,
                           placeholder: "assets/png/placeholder.png",
                           image:
-                              "${Constant.baseUrl}/${equiryData.productImg}")),
+                              "${Constant.baseImageUrl}/${equiryData.productImg}")),
                 ),
               ),
               Expanded(

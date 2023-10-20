@@ -1,7 +1,10 @@
 class Constant {
   static const String ALL_RIGHT_RESERVED = "Jumpq All rights are reserved ";
-  static const String baseUrl = "https://f2df.in";
-  static const String webViewBaseUrl = "https://f2df.com";
+  static const String baseUrl = "http://103.159.85.236:3000";//"https://f2df.com.in";
+  static const String webViewBaseUrl = "https://f2df.com";//"""https://f2df.com";
+  static const String baseUrlUAT = "http://103.159.85.236:3000";//"""http://103.159.85.236:3000";
+  static const String webViewBaseUrlUAT = "http://103.159.85.236:3000";//"""https://f2df.com";
+  static const String baseImageUrl = "https://f2df.in";
   static const String DARK_THEME = "dark_theme";
   static const String DEVICE_UID = "device_uid";
   static const String DEVICE_TOKEN = "device_token";

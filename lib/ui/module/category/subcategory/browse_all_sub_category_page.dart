@@ -223,7 +223,7 @@ class BrowseSubCategory extends AppPageWithAppBar {
                         const EdgeInsets.only(left: 10, right: 10, top: 10),
                     child: FadeInImage.assetNetwork(
                         placeholder: "assets/png/placeholder.png",
-                        image: Constant.baseUrl + data.subCategoryImg),
+                        image: Constant.baseImageUrl + data.subCategoryImg),
                   ),
                 ),
               ),

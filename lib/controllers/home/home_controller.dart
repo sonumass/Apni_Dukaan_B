@@ -217,15 +217,15 @@ class HomeController extends BaseController {
                     child: Column(
                       children: [
                         card("BEE KEEPING",
-                            "${Constant.baseUrl}/img/BEE_KEEPING.png", "1000"),
+                            "${Constant.baseImageUrl}/img/BEE_KEEPING.png", "1000"),
                         card("CASH CROPS",
-                            "${Constant.baseUrl}/img/CASH_CROPS.png", "5000"),
+                            "${Constant.baseImageUrl}/img/CASH_CROPS.png", "5000"),
                         card(
                             "DAIRY PRODUCTS",
-                            "${Constant.baseUrl}/img/dairy_Products.png",
+                            "${Constant.baseImageUrl}/img/dairy_Products.png",
                             "250"),
                         card("FOOD GRAINS & EDIBLE OILS",
-                            "${Constant.baseUrl}/img/FOOD_GRAINS.png", "3000")
+                            "${Constant.baseImageUrl}/img/FOOD_GRAINS.png", "3000")
                       ],
                     ),
                   ),

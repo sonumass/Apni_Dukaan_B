@@ -62,7 +62,7 @@ class TestimonialDetails extends AppPageWithAppBar {
             borderRadius: BorderRadius.circular(8.0),
             child: FadeInImage.assetNetwork(
               placeholder: 'assets/png/app_logo.png',
-              image: "${Constant.baseUrl}${listData.img}",
+              image: "${Constant.baseImageUrl}${listData.img}",
               fit: BoxFit.cover,
               height: 100.0,
             ),

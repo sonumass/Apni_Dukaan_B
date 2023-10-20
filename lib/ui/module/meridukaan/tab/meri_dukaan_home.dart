@@ -4,7 +4,6 @@ import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 import 'package:get/get.dart';
 import 'package:mcsofttech/constants/Constant.dart';
 import 'package:mcsofttech/ui/commonwidget/text_style.dart';
-import 'package:mcsofttech/ui/dialog/loader.dart';
 import 'package:mcsofttech/utils/common_util.dart';
 import 'package:share/share.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -101,7 +100,7 @@ class _MeriDukaanHomeState extends State<MeriDukaanHome> {
                   height: 100,
                   placeholder: "assets/png/placeholder.png",
                   image:
-                      "${Constant.baseUrl}${widget.meriDukaanModel?.dukanDetails?.logo ?? ""}")
+                      "${Constant.baseImageUrl}${widget.meriDukaanModel?.dukanDetails?.logo ?? ""}")
               : const SizedBox.shrink(),
         ),
       ),
@@ -185,8 +184,8 @@ class _MeriDukaanHomeState extends State<MeriDukaanHome> {
               highlightColor: Colors.green,
               splashColor: Colors.green,
               color: Colors.green,
-              icon: const Icon(
-                Icons.whatsapp,
+              icon:  Icon(
+                Icons.add,
                 color: Colors.green,
               ),
               onPressed: () {
@@ -416,7 +415,7 @@ class _MeriDukaanHomeState extends State<MeriDukaanHome> {
           },
           icon: const Icon(
             // <-- Icon
-            Icons.whatsapp,
+            Icons.add,
           ),
           label: const Text('Share on whatsApp '), // <-- Text
         ),

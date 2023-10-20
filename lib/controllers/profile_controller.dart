@@ -47,8 +47,8 @@ class ProfileController extends BaseController {
     addressController.text = appPreferences.mobile;
     emailController.text = appPreferences.email;
     callGetProfile();
-    profilePicUrl.value = Constant.baseUrl + appPreferences.userImage;
-    imageUrl.value = Constant.baseUrl + appPreferences.userImage;
+    profilePicUrl.value = Constant.baseImageUrl + appPreferences.userImage;
+    imageUrl.value = Constant.baseImageUrl + appPreferences.userImage;
     super.onInit();
   }
 

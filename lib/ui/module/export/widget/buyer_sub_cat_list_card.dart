@@ -38,7 +38,7 @@ class BuyerSubCatCard extends BaseStateLessWidget {
                         height: 78,
                         fit: BoxFit.fill,
                         placeholder: "assets/png/placeholder.png",
-                        image: "${Constant.baseUrl}/${subCat.subCategoryImg}")),
+                        image: "${Constant.baseImageUrl}/${subCat.subCategoryImg}")),
               ),
             ),
             Expanded(

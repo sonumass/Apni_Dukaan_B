@@ -41,7 +41,7 @@ class EditProfile extends AppPageWithAppBar {
             ProfileWidget(
               imagePath: controller.imageUrl.value.isEmpty
                   ? "https://cdn-icons-png.flaticon.com/512/149/149071.png"
-                  : "${Constant.baseUrl}${controller.imageUrl.value}",
+                  : "${Constant.baseImageUrl}${controller.imageUrl.value}",
               isEdit: true,
               onClicked: () async {
                 controller.getImage();

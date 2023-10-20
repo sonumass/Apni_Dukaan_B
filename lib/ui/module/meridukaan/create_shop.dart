@@ -59,7 +59,7 @@ class CreateShop extends AppPageWithAppBar {
                                             placeholder:
                                                 'assets/png/app_logo.png',
                                             image:
-                                                "${Constant.baseUrl}${controller.meriDukaanModel?.dukanDetails?.logo ?? ""}",
+                                                "${Constant.baseImageUrl}${controller.meriDukaanModel?.dukanDetails?.logo ?? ""}",
                                             fit: BoxFit.cover,
                                             height: 40.0,
                                           )),

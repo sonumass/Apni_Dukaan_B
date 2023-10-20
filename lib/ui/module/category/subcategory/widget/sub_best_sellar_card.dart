@@ -56,8 +56,8 @@ class BestSellarCard extends BaseStateLessWidget {
                         fit: BoxFit.fill,
                         placeholder: "assets/png/placeholder.png",
                         image: recommdedProduct.img1.isNotEmpty
-                            ? Constant.baseUrl + recommdedProduct.img1
-                            : "${Constant.baseUrl}/img/product/noaImg2.png")),
+                            ? Constant.baseImageUrl + recommdedProduct.img1
+                            : "${Constant.baseImageUrl}/img/product/noaImg2.png")),
               ),
             ),
             Expanded(

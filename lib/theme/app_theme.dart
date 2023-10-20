@@ -43,7 +43,7 @@ class AppTheme {
       backgroundColor: isDarkTheme ? Colors.black : Colors.white,
 
       indicatorColor: isDarkTheme ? const Color(0xff0E1D36) : Color(0xFF3F51B5),
-      buttonColor: isDarkTheme ? Color(0xff3B3B3B) : const Color(0xFF3F51B5),
+
 
       hintColor: isDarkTheme ? Color(0xff280C0B) : Colors.black,
 

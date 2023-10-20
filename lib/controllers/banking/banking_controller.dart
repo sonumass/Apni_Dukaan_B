@@ -2,12 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mcsofttech/controllers/base_getx_controller.dart';
 import 'package:mcsofttech/data/network/apiservices/banking_api_service.dart';
-import 'package:mcsofttech/data/network/apiservices/login_api_service.dart';
 import 'package:mcsofttech/data/preferences/AppPreferences.dart';
 import 'package:mcsofttech/models/login/LoginData.dart';
-import 'package:mcsofttech/ui/module/home/home.dart';
-import 'package:mcsofttech/ui/module/login/otp_page.dart';
-import 'package:mcsofttech/ui/module/profile/profile_page.dart';
 import '../../utils/common_util.dart';
 class BankingController extends BaseController {
   final apiServices = Get.put(BankingApiServices());

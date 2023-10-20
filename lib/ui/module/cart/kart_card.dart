@@ -273,7 +273,7 @@ class KartCard extends BaseStateLessWidget {
         borderRadius: BorderRadius.circular(8.0),
         child: FadeInImage.assetNetwork(
           placeholder: 'assets/png/app_logo.png',
-          image: "${Constant.baseUrl}${product.productImg}",
+          image: "${Constant.baseImageUrl}${product.productImg}",
           fit: BoxFit.cover,
           height: 40.0,
         ),

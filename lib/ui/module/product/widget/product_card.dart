@@ -37,7 +37,7 @@ class ProductCard extends BaseStateLessWidget {
                   padding: const EdgeInsets.all(10),
                   child: FadeInImage.assetNetwork(
                       placeholder: "assets/png/placeholder.png",
-                      image: Constant.baseUrl + recommdedProduct.img1),
+                      image: Constant.baseImageUrl + recommdedProduct.img1),
                 ),
               ),
               const SizedBox(

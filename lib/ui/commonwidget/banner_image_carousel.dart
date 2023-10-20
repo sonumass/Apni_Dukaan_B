@@ -50,7 +50,7 @@ class _CarouselState extends State<BannerCarousel> {
   Widget build(BuildContext context) {
     List<String> imageList = <String>[];
     for (int i = 0; i <= widget.bannerList.length - 1; i++) {
-      imageList.add("${Constant.baseUrl}${widget.bannerList[i].img}");
+      imageList.add("${Constant.baseImageUrl}${widget.bannerList[i].img}");
     }
     return Padding(
       padding: const EdgeInsets.only(top: 10),
